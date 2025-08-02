@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Add New Employee</h1>
+<form action="SaveServlet1" method="post">
+<table>
+<tr>
+<td>Id:</td>
+<td><input type="text" name="id"/>
+</td>
+</tr>
+<tr><td>Name:</td>
+<td><input type="text" name="name"/></td></tr>
+<tr>
+<td>PassWord:</td>
+<td><input type="text" name="password">
+</td>
+</tr>
+<tr>
+<td>Email:</td>
+<td><input type="text" name="email"/></td></tr>
+<tr><td>City:</td>
+<td><select name="city" style="width:150px">
+<option>Chennai</option>
+<option>Trichy</option>
+<option>Hosur</option>
+<option>Theni</option>
+<option>Others</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="submit" value="Save Employee"/></td></tr>
+</table>
+<br/>
+<a href="ViewServlet1">View Employees</a>
+</form>
+</body>
+</html>
